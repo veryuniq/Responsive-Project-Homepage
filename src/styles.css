@@ -5,7 +5,7 @@ body{
 :root {
   --branding-color: black;
   --secondary-color: rgb(199, 199, 199);
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 10px white;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
 h1,
 h2,
 h3 {
+font-family: 'Times New Roman', Times, serif;
   text-align: center;
   margin: 0;
 }
@@ -55,9 +56,14 @@ p {
   text-transform: capitalize;
 }
 
+.navigation-links a:hover {
+    color: white;
+    background: var(--branding-color) ;
+    box-shadow: var(--box-shadow);
+}
+
 .contact-link {
   background: var(--secondary-color);
-  box-shadow: var(--box-shadow);
   color: white;
 }
 
@@ -65,6 +71,7 @@ p {
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
 }
+
 
 .homepage-link {
   color: var(--secondary-color);
