@@ -1,21 +1,21 @@
-body{
-    background: var(--branding-color);
-    color: white;
-}
+
 :root {
   --branding-color: black;
   --secondary-color: rgb(199, 199, 199);
   --box-shadow: 0 5px 10px white;
+  --heading-font-family: 'Times New Roman', Times, serif,
 }
 
 body {
-  margin-top: 100px;
+ background: var(--branding-color);
+ color: white;
+    margin-top: 100px;
 }
 
 h1,
 h2,
 h3 {
-font-family: 'Times New Roman', Times, serif;
+font-family: var(--heading-font-family);
   text-align: center;
   margin: 0;
 }
@@ -42,6 +42,10 @@ p {
   text-align: center;
 }
 
+.hero {
+    background: var(--branding-color);
+    text-align: center;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
