@@ -1,6 +1,6 @@
 
 :root {
-  --branding-color: black;
+  --branding-color: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);;
   --secondary-color: rgb(199, 199, 199);
   --box-shadow: 0 5px 10px white;
   --heading-font-family: 'Times New Roman', Times, serif,
@@ -82,5 +82,16 @@ p {
   text-align: center;
   display: block;
 }
+.primary-link {
+   background: var(--secondary-color);
+  color: white; 
+    margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
 
-
+.primary-link:hover {
+    
+}
