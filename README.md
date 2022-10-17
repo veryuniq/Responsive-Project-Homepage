@@ -1,2 +1,2 @@
-# Responsive Project Homepage
- SheCodes HW4 for Responsive Project. This will be the homepage for now as the project is being built
+# Responsive Portolio Project
+ SheCodes Responsive Portfolio Project. This is my third SheCodes project built
