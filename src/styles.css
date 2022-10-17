@@ -93,7 +93,7 @@ p {
     font-size: 44px;
   }
   
-  h4{
+  h3{
     font-size: 26px;
   }
   
@@ -159,18 +159,23 @@ p {
   text-align: center;
   display: block;
 }
-.primary-link {
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+} 
+
+.btn-branding-outline {
   color: var(--secondary-color);
   text-decoration: none;
-}
-.btn-branding-outline {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
-.primary-link a:hover {
+.btn-branding a:hover {
   background: var(--branding-color);
   border: 1px solid var(--branding-color);
   box-shadow: var(--box-shadow)
@@ -223,4 +228,9 @@ footer .social-links a:hover{
   color: white;
   background: var(--branding-color);
   box-shadow: var(--box-shadow);
+}
+
+#code-source {
+  background: none;
+  color: var(--secondary-color);
 }
