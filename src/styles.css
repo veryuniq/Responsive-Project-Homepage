@@ -86,6 +86,10 @@ p {
   padding: 15px 30px;
 }
 
+#learn {
+  display: block;
+}
+
 .project-description{
   padding: 120px 60px;
 }
@@ -112,6 +116,11 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+#featured {
+  font-weight: bold;
+  
 }
 .about-section{
   text-align: center;
@@ -166,6 +175,7 @@ p {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+  font-weight: 400;
 } 
 
 .btn-branding-outline {
