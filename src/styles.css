@@ -65,6 +65,13 @@ p {
   padding: 160px 20px;
 }
 
+.hero p {
+  background: none;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
 .hero h2 {
   font-family: var(--heading-font-family);
   line-height: 1.5;
@@ -85,7 +92,7 @@ p {
 
 @media (max-width: 900px){
     h1 {
-    font-size: 44px;
+    font-size: px;
     line-height: 2;
   }
 
@@ -144,11 +151,6 @@ p {
   box-shadow: var(--box-shadow);
 }
 
-.contact-link {
-  background: var(--secondary-color);
-  color: white;
-}
-
 .about-link {
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
@@ -184,6 +186,10 @@ p {
 .contact {
   background: none;
   text-decoration: none;
+}
+
+.contact:hover {
+  text-shadow: var(--box-shadow);
 }
 
 footer{
@@ -224,6 +230,10 @@ footer .social-links a:hover{
   background: var(--branding-color);
 }
 
+#contact {
+  color: black;
+}
+
 #contact:hover{
   color: white;
   background: var(--branding-color);
@@ -233,4 +243,15 @@ footer .social-links a:hover{
 #code-source {
   background: none;
   color: var(--secondary-color);
+}
+
+.source-code {
+  background: none;
+  color: black;
+  text-decoration: none;
+}
+
+.source-code:hover{
+  color: white;
+text-shadow: var(--box-shadow);
 }
