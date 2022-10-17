@@ -165,3 +165,8 @@ p {
   border: 1px solid var(--branding-color);
   box-shadow: var(--box-shadow)
 }
+
+.contact {
+  background: none;
+  text-decoration: none;
+}
