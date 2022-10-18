@@ -47,6 +47,9 @@ h3 {
 h4 {
   font-family: var(--heading-font-family);
   font-size: 46px;
+  color: black;
+  font-weight: bold;
+  opacity: 0.7;
 }
 
 p {
@@ -86,10 +89,6 @@ p {
   padding: 15px 30px;
 }
 
-#learn {
-  display: block;
-}
-
 .project-description{
   padding: 120px 60px;
 }
@@ -104,7 +103,7 @@ p {
     font-size: 44px;
   }
   
-  h3{
+  .hero h3{
     font-size: 26px;
   }
   
